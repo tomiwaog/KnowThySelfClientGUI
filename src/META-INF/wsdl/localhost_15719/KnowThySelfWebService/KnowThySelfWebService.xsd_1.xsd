@@ -1,0 +1,148 @@
+<?xml version='1.0' encoding='UTF-8'?><!-- Published by JAX-WS RI (http://jax-ws.java.net). RI's version is Metro/2.3.1-b419 (branches/2.3.1.x-7937; 2014-08-04T08:11:03+0000) JAXWS-RI/2.2.10-b140803.1500 JAXWS-API/2.2.11 JAXB-RI/2.2.10-b140802.1033 JAXB-API/2.2.12-b140109.1041 svn-revision#unknown. --><xs:schema xmlns:tns="http://knowthyselfserver/" xmlns:xs="http://www.w3.org/2001/XMLSchema" version="1.0" targetNamespace="http://knowthyselfserver/">
+
+<xs:element name="findZodiac" type="tns:findZodiac"/>
+
+<xs:element name="findZodiacResponse" type="tns:findZodiacResponse"/>
+
+<xs:element name="getDateOfBirth" type="tns:getDateOfBirth"/>
+
+<xs:element name="getDateOfBirthResponse" type="tns:getDateOfBirthResponse"/>
+
+<xs:element name="getDayOfBirth" type="tns:getDayOfBirth"/>
+
+<xs:element name="getDayOfBirthResponse" type="tns:getDayOfBirthResponse"/>
+
+<xs:element name="getFaveColor" type="tns:getFaveColor"/>
+
+<xs:element name="getFaveColorResponse" type="tns:getFaveColorResponse"/>
+
+<xs:element name="getFaveDrink" type="tns:getFaveDrink"/>
+
+<xs:element name="getFaveDrinkResponse" type="tns:getFaveDrinkResponse"/>
+
+<xs:element name="getFaveFood" type="tns:getFaveFood"/>
+
+<xs:element name="getFaveFoodResponse" type="tns:getFaveFoodResponse"/>
+
+<xs:element name="getMonthOfBirth" type="tns:getMonthOfBirth"/>
+
+<xs:element name="getMonthOfBirthResponse" type="tns:getMonthOfBirthResponse"/>
+
+<xs:element name="getZodiacSign" type="tns:getZodiacSign"/>
+
+<xs:element name="getZodiacSignResponse" type="tns:getZodiacSignResponse"/>
+
+<xs:element name="welcomeUser" type="tns:welcomeUser"/>
+
+<xs:element name="welcomeUserResponse" type="tns:welcomeUserResponse"/>
+
+<xs:complexType name="getZodiacSign">
+<xs:sequence>
+<xs:element name="zodiac" type="xs:string" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="getZodiacSignResponse">
+<xs:sequence>
+<xs:element name="return" type="xs:string" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="getMonthOfBirth">
+<xs:sequence>
+<xs:element name="monthdob" type="xs:string" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="getMonthOfBirthResponse">
+<xs:sequence>
+<xs:element name="return" type="xs:string" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="welcomeUser">
+<xs:sequence>
+<xs:element name="user" type="xs:string" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="welcomeUserResponse">
+<xs:sequence>
+<xs:element name="return" type="xs:string" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="getFaveDrink">
+<xs:sequence>
+<xs:element name="drink" type="xs:string" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="getFaveDrinkResponse">
+<xs:sequence>
+<xs:element name="return" type="xs:string" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="getDayOfBirth">
+<xs:sequence>
+<xs:element name="dd" type="xs:string" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="getDayOfBirthResponse">
+<xs:sequence>
+<xs:element name="return" type="xs:string" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="getFaveFood">
+<xs:sequence>
+<xs:element name="food" type="xs:string" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="getFaveFoodResponse">
+<xs:sequence>
+<xs:element name="return" type="xs:string" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="getFaveColor">
+<xs:sequence>
+<xs:element name="color" type="xs:string" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="getFaveColorResponse">
+<xs:sequence>
+<xs:element name="return" type="xs:string" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="getDateOfBirth">
+<xs:sequence>
+<xs:element name="dd" type="xs:string" minOccurs="0"/>
+<xs:element name="mm" type="xs:string" minOccurs="0"/>
+<xs:element name="yyyy" type="xs:int"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="getDateOfBirthResponse">
+<xs:sequence>
+<xs:element name="return" type="xs:string" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="findZodiac">
+<xs:sequence>
+<xs:element name="typeZodiacc" type="xs:string" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="findZodiacResponse">
+<xs:sequence>
+<xs:element name="return" type="xs:string" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+</xs:schema>

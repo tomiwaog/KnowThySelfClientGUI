@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<catalog xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog" prefer="system">
+    <system systemId="http://localhost:15719/KnowThySelf/KTS-Service-Server?wsdl" uri="xml-resources/web-service-references/KTS-Service-Server/wsdl/localhost_15719/KnowThySelf/KTS-Service-Server.wsdl"/>
+    <system systemId="http://localhost:15719/KnowThySelf/KTS-Service-Server?xsd=1" uri="xml-resources/web-service-references/KTS-Service-Server/wsdl/localhost_15719/KnowThySelf/KTS-Service-Server.xsd_1.xsd"/>
+    <system systemId="http://localhost:15719/KnowThySelfWebService/KnowThySelfWebService?wsdl" uri="xml-resources/web-service-references/KnowThySelfWebService/wsdl/localhost_15719/KnowThySelfWebService/KnowThySelfWebService.wsdl"/>
+    <system systemId="http://localhost:15719/KnowThySelfWebService/KnowThySelfWebService?xsd=1" uri="xml-resources/web-service-references/KnowThySelfWebService/wsdl/localhost_15719/KnowThySelfWebService/KnowThySelfWebService.xsd_1.xsd"/>
+</catalog>
